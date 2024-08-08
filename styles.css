@@ -378,6 +378,7 @@
     background-color: #f1f7e7;
     box-shadow: 10px 10px 10px #2e3261;
     border-radius: 8px;
+    color: black;
     border: 0;
     margin: auto;
     margin-top: 1.5rem;
@@ -540,6 +541,7 @@
         display: initial;
         margin: auto;
         background-color: #32547c;
+        color: black;
         box-shadow: 10px 10px 10px #2e3261;
         border-radius: 50px;
         font-size: 1rem;
