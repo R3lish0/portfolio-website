@@ -639,7 +639,3 @@ body,
 html {
     margin: 0;
 }
-
-html {
-    overscroll-behavior: none;
-}
