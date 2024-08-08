@@ -228,6 +228,10 @@
     max-width: 4rem;
 }
 
+.tech-gallery span {
+    text-align: center;
+}
+
 .blurb {
     text-align: center;
     margin: auto;
@@ -411,6 +415,11 @@
 
 .hidden-tech-pair-text {
     font-size: 1rem;
+    text-align: center;
+}
+
+.hidden-tech-pair span {
+    text-align: center;
 }
 
 .tech-gallery {
@@ -446,6 +455,10 @@
     font-size: 1.2rem;
 }
 
+.tech-pair img {
+    margin: auto;
+}
+
 .blurb {
     margin: auto;
     width: 50%;
@@ -461,6 +474,7 @@
 .hidden-tech-pair img {
     width: 50px;
     height: 50px;
+    margin: auto;
 }
 
 .hidden-tech-pair span {
