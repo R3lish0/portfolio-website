@@ -637,5 +637,6 @@ a {
 
 body,
 html {
+    overscroll-behavior: none;
     margin: 0;
 }
