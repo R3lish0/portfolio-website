@@ -19,34 +19,36 @@
                 <h1 class="anonymous-pro-bold">I Solve Problems</h1>
             </div>
             <div id="socials">
-                <a href = "https://www.linkedin.com/in/elias-newlin-7414a9233/">
                     <button class="socials anonymous-pro-bold">
-                        <img src="icons/linkedin-black.svg">
-                        <h3 >Linkedin</h3>
+                        <a href = "https://www.linkedin.com/in/elias-newlin-7414a9233/">
+                            <img src="icons/linkedin-black.svg">
+                            <h3 >Linkedin</h3>
+                        </a>
                     </button>
-                </a>
-                <a href = "https://github.com/R3lish0">
                 <button class ="socials anonymous-pro-bold">
+                    <a href = "https://github.com/R3lish0">
                     <img src="icons/github-black.svg">
                     <h3>Github</h3>
+                    </a>
                 </button>
-                </a>
-                <a href = "resume/Eli_Newlin_Resume.pdf" download>
                 <button class="socials anonymous-pro-bold">
+                    <a href = "resume/Eli_Newlin_Resume.pdf" download>
                     <img src="icons/resume-black.svg">
                     <h3>Resume</h3>
+                    </a>
                 </button>
-                </a>
             </div>
         </div>
         <div id="link-container">
             <button class="link-box anonymous-pro-bold" id="experience">
+                <a class="link-box-button">
                 <h3>Work Experience</h3>
+                </a>
             </button>
-            <button class="link-box anonymous-pro-bold">
+            <button class="link-box anonymous-pro-bold" id="projects">
                 <h3>Projects</h3>
             </button>
-            <button class="link-box anonymous-pro-bold">
+            <button class="link-box anonymous-pro-bold" id="passion">
                 <h3>Passions</h3>
             </button>
         </div>
@@ -55,39 +57,41 @@
         <div class="hidden-work-experience">
             <div style="display: flex; flex-direction: column;">
                 <img class="hidden-business-icon" src="images/soilserdem_logo.jpg"/>
-                <span class ="hidden-blurb anonymous-pro-bold">Let me tell you about this here thing that I did</span>
+                <span class ="hidden-blurb anonymous-pro-bold">SoilSerdem is a startup based in Ames, Iowa that helps farmers
+                    reinvent the way they handle their data. To them I owe my ability to work well within a team of developers,
+                    work with teams of people who are not developers, delegate tasks, manage deadlines, and provide a low latency product.
+                </span>
             </div>
-            <div class = "hidden-tech-gallery">
-                <h3 class="anonymous-pro-bold">Technologies/Languages</h3>
-                <div class="hidden-tech-gallery-1">
+            <div class="hidden-tech-gallery">
+                <div class = "hidden-tech-gallery-1">
                     <div class = "hidden-tech-pair">
-                        <img  src="icons/python.png" />
-                        <span class="anonymous-pro-regular-italic">Typescript</span>
+                        <img  src="icons/prisma.png" />
+                        <span class="hidden-tech-pair-text anonymous-pro-regular-italic">Prisma</span>
                     </div>
                     <div class = "hidden-tech-pair">
-                        <img  src="icons/openai.png" />
-                        <span class="anonymous-pro-regular-italic">NextJS</span>
+                        <img  src="icons/typescript.png" />
+                        <span class="hidden-tech-pair-text anonymous-pro-regular-italic">Typescript</span>
                     </div>
                     <div class = "hidden-tech-pair">
-                        <img  src="icons/azure.png" />
-                        <span class="anonymous-pro-regular-italic">ExpressJS</span>
-                    </div>
-                </div>
-                <div class="hidden-tech-gallery-2">
-                    <div class = "hidden-tech-pair">
-                        <img  src="icons/microsoft-sql.png" />
-                        <span class="anonymous-pro-regular-italic">MariaDB</span>
-                    </div>
-                    <div class = "hidden-tech-pair">
-                        <img  src="icons/azure.png" />
-                        <span class="anonymous-pro-regular-italic">Prisma</span>
-                    </div>
-                    <div class = "hidden-tech-pair">
-                        <img  src="icons/microsoft-sql.png" />
-                        <span class="anonymous-pro-regular-italic">Docker</span>
+                        <img  src="icons/docker.png" />
+                        <span class="hidden-tech-pair-text anonymous-pro-regular-italic">Docker</span>
                     </div>
                 </div>
-
+                <div class = "hidden-tech-gallery-2">
+                    <div class = "hidden-tech-pair">
+                        <img  src="icons/expressjs.png" />
+                        <span class="hidden-tech-pair-text anonymous-pro-regular-italic">ExpressJS</span>
+                    </div>
+                    <div class = "hidden-tech-pair">
+                        <img  src="icons/mariadb.png" />
+                        <span class="hidden-tech-pair-text anonymous-pro-regular-italic">MariaDB</span>
+                    </div>
+                    <div class = "hidden-tech-pair">
+                        <img  src="icons/nextjs.png" />
+                        <span class="hidden-tech-pair-text anonymous-pro-regular-italic">NextJS</span>
+                    </div>
+                </div>
+            </div>
             <button id="mobile-blurb-1-close" class="close-blurb anonymous-pro-bold" ><h2>Close</h2></button>
             </div>
         </div>
@@ -96,28 +100,33 @@
         <div class="hidden-work-experience">
             <div style="display: flex; flex-direction: column;">
                 <img class="hidden-business-icon" src="images/bdib.jpg"/>
-                <span class ="hidden-blurb anonymous-pro-bold">Let me tell you about this here thing that I did</span>
+                <span class ="hidden-blurb anonymous-pro-bold">
+                Big Data In A Box is an startup based within Iowa State University
+                that focused on the power digital twins could provide to farmers. This was my first internship (started as research)
+                and they provided me an environment in which I could experiment with AI tools and learn to produce a
+                fullstack webapp with cloud functionality.
+                </span>
             </div>
             <div class = "hidden-tech-gallery">
                 <h3 class="anonymous-pro-bold">Technologies/Languages</h3>
                 <div class="hidden-tech-gallery-1">
                     <div class = "hidden-tech-pair">
                         <img  src="icons/python.png" />
-                        <span class="anonymous-pro-regular-italic">Python</span>
+                        <span class="hidden-tech-pair-text anonymous-pro-regular-italic">Python</span>
                     </div>
                     <div class = "hidden-tech-pair">
                         <img  src="icons/openai.png" />
-                        <span class="anonymous-pro-regular-italic">OpenAi</span>
+                        <span class="hidden-tech-pair-text anonymous-pro-regular-italic">OpenAi</span>
                     </div>
                 </div>
                 <div class="hidden-tech-gallery-2">
                     <div class = "hidden-tech-pair">
                         <img  src="icons/azure.png" />
-                        <span class="anonymous-pro-regular-italic">Azure</span>
+                        <span class="hidden-tech-pair-text anonymous-pro-regular-italic">Azure</span>
                     </div>
                     <div class = "hidden-tech-pair">
                         <img  src="icons/microsoft-sql.png" />
-                        <span class="anonymous-pro-regular-italic">MSSQL</span>
+                        <span class="hidden-tech-pair-text anonymous-pro-regular-italic">MSSQL</span>
                     </div>
                 </div>
             <button id="mobile-blurb-2-close" class="close-blurb anonymous-pro-bold" ><h2>Close</h2></button>
@@ -131,7 +140,10 @@
         <div id="work-container">
             <div class="work-experience">
                 <img class = "business-icon" src="images/soilserdem_logo.jpg"/>
-                <span class="blurb">Here is my blurb, a most blurby blurb to be exact</span>
+                <span class="blurb anonymous-pro-bold">SoilSerdem is a startup based in Ames, Iowa that helps farmers
+                    reinvent the way they handle their data. To them I owe my ability to work well within a team of developers.
+                    work with teams of people who are not developers, delegate tasks, manage deadlines, and provide a low latency product.
+                </span>
                 <div class="tech-gallery">
                     <div class = "tech-gallery-1">
                         <div class = "tech-pair">
@@ -165,13 +177,17 @@
                 <button id="experience-1" class="dropdown anonymous-pro-bold">Read More</button>
                 <div class="position">
                     <h2 class="anonymous-pro-bold">Position:</h2>
-                    <h3 class="anonymous-pro-regular">Intern</h3>
+                    <h3 class="anonymous-pro-regular">Full Stack Developer Intern</h3>
 
                 </div>
             </div>
             <div class="work-experience">
                 <img class = "business-icon" src="images/bdib.jpg"/>
-                <span class="blurb">Here is my blurb, a most blurby blurb to be exact</span>
+                <span class="blurb anonymous-pro-bold">Big Data In A Box is an startup based within Iowa State University
+                    that focused on the power digital twins could provide to farmers. This was my first internship (started as research)
+                    and they provided me an environment in which I could experiment with AI tools and learn to produce a
+                    fullstack webapp with cloud functionality.
+                </span>
                 <div class="tech-gallery">
                     <div class = "tech-gallery-1">
                         <div class = "tech-pair">
@@ -197,9 +213,84 @@
                 <button id="experience-2" class="dropdown anonymous-pro-bold">Read More</button>
                 <div class="position">
                     <h2 class="anonymous-pro-bold">Position:</h2>
-                    <h3 class="anonymous-pro-regular">Full Stack Developer Intern</h3>
+                    <h3 class="anonymous-pro-regular">Intern</h3>
 
                 </div>
+            </div>
+        </div>
+    </div>
+    <div id="mobile-blurb-3" class="hidden">
+        <div class="hidden-work-experience">
+            <div style="display: flex; flex-direction: column;">
+                <img class="hidden-business-icon" src="images/poke327.png"/>
+                <span class ="hidden-blurb anonymous-pro-bold">
+                    Poke327 is a result of my Coms327 class (Advanced Programming Techniques). It isn't a complete game, but
+                    it hammered in the fundementals of C++ with pointers, ncurses, and implementing powerful algorithms to accomplish the projects requirements.
+                    I'm very proud of this project as throughout the semester I was able to implement NPCs, battle, terrain generation, and more!
+                </span>
+            </div>
+            <div class="hidden-tech-gallery">
+                <div class = "hidden-tech-gallery-1">
+                    <div class = "hidden-tech-pair">
+                        <img  src="icons/c++.png" />
+                        <span class="hidden-tech-pair-text anonymous-pro-regular-italic">C/C++</span>
+                    </div>
+                </div>
+            </div>
+            <button id="mobile-blurb-3-close" class="close-blurb anonymous-pro-bold" ><h2>Close</h2></button>
+            </div>
+        </div>
+    </div>
+    <div id="mobile-blurb-4" class="hidden">
+        <div class="hidden-work-experience">
+            <div style="display: flex; flex-direction: column;">
+                <img class="hidden-business-icon" src="images/news-plus-plus.png"/>
+                <span class ="hidden-blurb anonymous-pro-bold">
+                    News++ is a blog that I created with my friend to give us the opportunity to write down thoughts
+                    and investigate AstroJS. We were both in town at the same time and decided that it would be fun to spend an afternoon trying to create something that we
+                    have wanted to create for a while. This site is hosted on github pages and allows for us to critically think about development/practices we engage in day to day</span>
+            </div>
+            <div class="hidden-tech-gallery">
+                <div class = "hidden-tech-gallery-1">
+                    <div class = "hidden-tech-pair">
+                        <img  src="icons/astro.png" />
+                        <span class="hidden-tech-pair-text anonymous-pro-regular-italic">Astro</span>
+                    </div>
+                    <div class = "hidden-tech-pair">
+                        <img  src="icons/typescript.png" />
+                        <span class="hidden-tech-pair-text anonymous-pro-regular-italic">Typescript</span>
+                    </div>
+                </div>
+                <div class = "hidden-tech-gallery-2">
+                    <div class = "hidden-tech-pair">
+                        <img  src="icons/markdown.png" />
+                        <span class="hidden-tech-pair-text anonymous-pro-regular-italic">Markdown</span>
+                    </div>
+                </div>
+            </div>
+            <button id="mobile-blurb-4-close" class="close-blurb anonymous-pro-bold" ><h2>Close</h2></button>
+            </div>
+        </div>
+    </div>
+    <div id="mobile-blurb-5" class="hidden">
+        <div class="hidden-work-experience">
+            <div style="display: flex; flex-direction: column;">
+                <img class="hidden-business-icon" src="images/scp.png"/>
+                <span class ="hidden-blurb anonymous-pro-bold">
+                    The SCP Database is a fun spin on a concept that I have seen in games like
+                    Lethal Company or Iron Lung. In both games, the player is presented with a curses based TUI in which they can investigate the lore
+                    of the game. I wanted to do something similar with the SCP wiki, thus I have created a curses based TUI that scrapes information from
+                    the official wiki in a fun and spooky way</span>
+            </div>
+            <div class="hidden-tech-gallery">
+                <div class = "hidden-tech-gallery-1">
+                    <div class = "hidden-tech-pair">
+                        <img  src="icons/c++.png" />
+                        <span class="hidden-tech-pair-text anonymous-pro-regular-italic">C/C++</span>
+                    </div>
+                </div>
+            </div>
+            <button id="mobile-blurb-5-close" class="close-blurb anonymous-pro-bold" ><h2>Close</h2></button>
             </div>
         </div>
     </div>
@@ -209,111 +300,125 @@
         </div>
         <div id="work-container">
             <div class="personal-project">
-                <img class = "business-icon" src="images/soilserdem_logo.jpg"/>
-                <span class="blurb">Here is my blurb, a most blurby blurb to be exact</span>
-                <div class="tech-gallery">
+                <img class = "business-icon" src="images/poke327.png"/>
+                <span class="blurb anonymous-pro-bold">Poke327 is a result of my Coms327 class (Advanced Programming Techniques). It isn't a complete game, but
+                    it hammered in the fundementals of C++ with pointers, ncurses, and implementing powerful algorithms to accomplish the projects requirements.
+                    I'm very proud of this project as throughout the semester I was able to implement NPCs, battle, terrain generation, and more!</span>
+                <div class="tech-gallery" style="min-width: 1rem;">
                     <div class = "tech-gallery-1">
                         <div class = "tech-pair">
-                            <img  src="icons/prisma.png" />
-                            <span class="anonymous-pro-regular-italic">Prisma</span>
+                            <img  src="icons/c++.png" />
+                            <span class="anonymous-pro-regular-italic">C/C++</span>
+                        </div>
+                    </div>
+                </div>
+                <button id="project-1" class="dropdown anonymous-pro-bold">Read More</button>
+                <button class="github">
+                    <a href = "https://github.com/R3lish0/poke327">
+                        <img src="icons/github-black.svg" />
+                    </a>
+                </button>
+            </div>
+            <div class="personal-project">
+                <img class="business-icon" src="images/news-plus-plus.png"/>
+                <span class="blurb anonymous-pro-bold">News++ is a blog that I created with my friend to give us the opportunity to write down thoughts
+                    and investigate AstroJS. We were both in town at the same time and decided that it would be fun to spend an afternoon trying to create something that we
+                    have wanted to create for a while. This site is hosted on github pages and allows for us to critically think about development/practices we engage in day to day</span>
+                <div class="tech-gallery" style="min-width:1rem">
+                    <div class = "tech-gallery-1">
+                        <div class = "tech-pair">
+                            <img  src="icons/astro.png" />
+                            <span class="anonymous-pro-regular-italic">Astro</span>
                         </div>
                         <div class = "tech-pair">
                             <img  src="icons/typescript.png" />
                             <span class="anonymous-pro-regular-italic">Typescript</span>
                         </div>
-                        <div class = "tech-pair">
-                            <img  src="icons/docker.png" />
-                            <span class="anonymous-pro-regular-italic">Docker</span>
-                        </div>
-                    </div>
-                    <div class = "tech-gallery-2">
-                        <div class = "tech-pair">
-                            <img  src="icons/expressjs.png" />
-                            <span class="anonymous-pro-regular-italic">ExpressJS</span>
-                        </div>
-                        <div class = "tech-pair">
-                            <img  src="icons/mariadb.png" />
-                            <span class="anonymous-pro-regular-italic">MariaDB</span>
-                        </div>
-                        <div class = "tech-pair">
-                            <img  src="icons/nextjs.png" />
-                            <span class="anonymous-pro-regular-italic">NextJS</span>
-                        </div>
-                    </div>
 
-                </div>
-                <button id="experience-1" class="dropdown anonymous-pro-bold">Read More</button>
-                <div class = "tech-pair">
-                    <img  src="icons/github-black.svg" />
-                </div>
-            </div>
-            <div class="personal-project">
-                <img class = "business-icon" src="images/bdib.jpg"/>
-                <span class="blurb">Here is my blurb, a most blurby blurb to be exact</span>
-                <div class="tech-gallery">
-                    <div class = "tech-gallery-1">
-                        <div class = "tech-pair">
-                            <img  src="icons/python.png" />
-                            <span class="anonymous-pro-regular-italic">Python</span>
-                        </div>
-                        <div class = "tech-pair">
-                            <img  src="icons/openai.png" />
-                            <span class="anonymous-pro-regular-italic">OpenAi</span>
-                        </div>
                     </div>
                     <div class = "tech-gallery-2">
                         <div class = "tech-pair">
-                            <img  src="icons/azure.png" />
-                            <span class="anonymous-pro-regular-italic">Azure</span>
-                        </div>
-                        <div class = "tech-pair">
-                            <img  src="icons/microsoft-sql.png" />
-                            <span class="anonymous-pro-regular-italic">MSSQL</span>
+                            <img  src="icons/markdown.png" />
+                            <span class="anonymous-pro-regular-italic">Markdown</span>
                         </div>
                     </div>
                 </div>
-                <button id="experience-2" class="dropdown anonymous-pro-bold">Read More</button>
-                <div class = "tech-pair">
-                    <img  src="icons/github-black.svg" />
+                <button id="project-2" class="dropdown anonymous-pro-bold">Read More</button>
+                <div class="github-div">
+                    <button class="github-item">
+                        <a href = "https://github.com/R3lish0/news-plus-plus">
+                        <img src="icons/github-black.svg" />
+                        </a>
+                    </button>
+                    <button class="github-item">
+                        <a href = "https://r3lish0.github.io/news-plus-plus/">
+                        <img src="icons/website.png" />
+                        </a>
+                    </button>
                 </div>
             </div>
             <div class="personal-project">
-                <img class = "business-icon" src="images/soilserdem_logo.jpg"/>
-                <span class="blurb">Here is my blurb, a most blurby blurb to be exact</span>
-                <div class="tech-gallery">
+                <img class = "business-icon" src="images/scp.png"/>
+                <span class="blurb anonymous-pro-bold">The SCP Database is a fun spin on a concept that I have seen in games like
+                    Lethal Company or Iron Lung. In both games, the player is presented with a curses based TUI in which they can investigate the lore
+                    of the game. I wanted to do something similar with the SCP wiki, thus I have created a curses based TUI that scrapes information from
+                    the official wiki in a fun and spooky way</span>
+                <div class="tech-gallery" class="min-width:1rem">
                     <div class = "tech-gallery-1">
                         <div class = "tech-pair">
-                            <img  src="icons/prisma.png" />
-                            <span class="anonymous-pro-regular-italic">Prisma</span>
-                        </div>
-                        <div class = "tech-pair">
-                            <img  src="icons/typescript.png" />
-                            <span class="anonymous-pro-regular-italic">Typescript</span>
-                        </div>
-                        <div class = "tech-pair">
-                            <img  src="icons/docker.png" />
-                            <span class="anonymous-pro-regular-italic">Docker</span>
-                        </div>
-                    </div>
-                    <div class = "tech-gallery-2">
-                        <div class = "tech-pair">
-                            <img  src="icons/expressjs.png" />
-                            <span class="anonymous-pro-regular-italic">ExpressJS</span>
-                        </div>
-                        <div class = "tech-pair">
-                            <img  src="icons/mariadb.png" />
-                            <span class="anonymous-pro-regular-italic">MariaDB</span>
-                        </div>
-                        <div class = "tech-pair">
-                            <img  src="icons/nextjs.png" />
-                            <span class="anonymous-pro-regular-italic">NextJS</span>
+                            <img  src="icons/c++.png" />
+                            <span class="anonymous-pro-regular-italic">C/C++</span>
                         </div>
                     </div>
                 </div>
-                <button id="experience-1" class="dropdown anonymous-pro-bold">Read More</button>
-                <div class = "tech-pair">
-                    <img  src="icons/github-black.svg" />
-                </div>
+                <button id="project-3" class="dropdown anonymous-pro-bold">Read More</button>
+                <button class="github">
+                    <a href = "https://github.com/R3lish0/scp-database">
+                    <img src="icons/github-black.svg" />
+                    </a>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div id="mobile-blurb-6" class="hidden">
+        <div class="hidden-work-experience">
+            <div style="display: flex; flex-direction: column;">
+                <img class="hidden-business-icon" src="images/tux.jpg"/>
+                <span class ="hidden-blurb anonymous-pro-bold">
+                    I love to use Linux! Void, Arch, Debian, Fedora, OpenSUSE, ElementaryOS, you name it
+                    I've tried it. I like to keep up with opensource and I'm genuinely excited at not only the rate of Linux development, but
+                    the nature of choice that Linux provides. It is my dream to someday be able to contribute to the Linux kernel or some impactful Linux software.
+                </span>
+            </div>
+            <button id="mobile-blurb-6-close" class="close-blurb anonymous-pro-bold" ><h2>Close</h2></button>
+            </div>
+        </div>
+    </div>
+    <div id="mobile-blurb-7" class="hidden">
+        <div class="hidden-work-experience">
+            <div style="display: flex; flex-direction: column;">
+                <img class="hidden-business-icon" src="images/snes.png"/>
+                <span class ="hidden-blurb anonymous-pro-bold">
+                    Retro games are some of the most interesting pieces of software I've ever seen.
+                    Back in the day of the NES or ATARI there were no powerful engines to provide an easy development experience. Nor were there
+                    powerful processors capable of speeds higher than even 50Mhz. The way that early developers had to scrape as much power as they could
+                    to create the games they did is remarkable. I believe that if I could begin to understand this level of resource
+                    management. I could apply this knowledge to scrape precious seconds off more bloated processes in languages like Javascript and become a significantly better developer.</span>
+            </div>
+            <button id="mobile-blurb-7-close" class="close-blurb anonymous-pro-bold" ><h2>Close</h2></button>
+            </div>
+        </div>
+    </div>
+    <div id="mobile-blurb-8" class="hidden">
+        <div class="hidden-work-experience">
+            <div style="display: flex; flex-direction: column;">
+                <img class="hidden-business-icon" src="images/leet-code.png"/>
+                <span class ="hidden-blurb anonymous-pro-bold">
+                    Leetcode is a pastime that I thouroughly enjoy. Not only do I get to learn new ways to solve problems and add new solutions to my toolbox, but
+                    I also get to experiment with how the code I write effects the runtime and space of my code. In addition, if I find that many are writing faster code, I can investigate
+                    their methods to improve my own thinking/programming. I love riddles and a website dedicated to such is simply too good to pass up!</span>
+            </div>
+            <button id="mobile-blurb-8-close" class="close-blurb anonymous-pro-bold" ><h2>Close</h2></button>
             </div>
         </div>
     </div>
@@ -322,112 +427,29 @@
             <h2 class = "anonymous-pro-bold">Passions</h2>
         </div>
         <div id="work-container">
-            <div class="personal-project">
-                <img class = "business-icon" src="images/soilserdem_logo.jpg"/>
-                <span class="blurb">Here is my blurb, a most blurby blurb to be exact</span>
-                <div class="tech-gallery">
-                    <div class = "tech-gallery-1">
-                        <div class = "tech-pair">
-                            <img  src="icons/prisma.png" />
-                            <span class="anonymous-pro-regular-italic">Prisma</span>
-                        </div>
-                        <div class = "tech-pair">
-                            <img  src="icons/typescript.png" />
-                            <span class="anonymous-pro-regular-italic">Typescript</span>
-                        </div>
-                        <div class = "tech-pair">
-                            <img  src="icons/docker.png" />
-                            <span class="anonymous-pro-regular-italic">Docker</span>
-                        </div>
-                    </div>
-                    <div class = "tech-gallery-2">
-                        <div class = "tech-pair">
-                            <img  src="icons/expressjs.png" />
-                            <span class="anonymous-pro-regular-italic">ExpressJS</span>
-                        </div>
-                        <div class = "tech-pair">
-                            <img  src="icons/mariadb.png" />
-                            <span class="anonymous-pro-regular-italic">MariaDB</span>
-                        </div>
-                        <div class = "tech-pair">
-                            <img  src="icons/nextjs.png" />
-                            <span class="anonymous-pro-regular-italic">NextJS</span>
-                        </div>
-                    </div>
-
-                </div>
-                <button id="experience-1" class="dropdown anonymous-pro-bold">Read More</button>
-                <div class = "tech-pair">
-                    <img  src="icons/github-black.svg" />
-                </div>
+            <div class="passion">
+                <img class = "passion-icon" src="images/tux.jpg"/>
+                <span class="passion-blurb anonymous-pro-bold">I love to use Linux! Void, Arch, Debian, Fedora, OpenSUSE, ElementaryOS, you name it
+                    I've tried it. I like to keep up with opensource and I'm genuinely excited at not only the rate of Linux development, but
+                    the nature of choice that Linux provides. It is my dream to someday be able to contribute to the Linux kernel or some impactful Linux software.
+                </span>
+                <button id="passion-1" class="passion-dropdown anonymous-pro-bold">Read More</button>
             </div>
-            <div class="personal-project">
-                <img class = "business-icon" src="images/bdib.jpg"/>
-                <span class="blurb">Here is my blurb, a most blurby blurb to be exact</span>
-                <div class="tech-gallery">
-                    <div class = "tech-gallery-1">
-                        <div class = "tech-pair">
-                            <img  src="icons/python.png" />
-                            <span class="anonymous-pro-regular-italic">Python</span>
-                        </div>
-                        <div class = "tech-pair">
-                            <img  src="icons/openai.png" />
-                            <span class="anonymous-pro-regular-italic">OpenAi</span>
-                        </div>
-                    </div>
-                    <div class = "tech-gallery-2">
-                        <div class = "tech-pair">
-                            <img  src="icons/azure.png" />
-                            <span class="anonymous-pro-regular-italic">Azure</span>
-                        </div>
-                        <div class = "tech-pair">
-                            <img  src="icons/microsoft-sql.png" />
-                            <span class="anonymous-pro-regular-italic">MSSQL</span>
-                        </div>
-                    </div>
-                </div>
-                <button id="experience-2" class="dropdown anonymous-pro-bold">Read More</button>
-                <div class = "tech-pair">
-                    <img  src="icons/github-black.svg" />
-                </div>
+            <div class="passion">
+                <img class = "passion-icon" src="images/snes.png"/>
+                <span class="passion-blurb anonymous-pro-bold">Retro games are some of the most interesting pieces of software I've ever seen.
+                    Back in the day of the NES or ATARI there were no powerful engines to provide an easy development experience. Nor were there
+                    powerful processors capable of speeds higher than even 50Mhz. The way that early developers had to scrape as much power as they could
+                    to create the games they did is remarkable. I believe that if I could begin to understand this level of resource
+                    management. I could apply this knowledge to scrape precious seconds off more bloated processes in languages like Javascript and become a significantly better developer.</span>
+                <button id="passion-2" class="passion-dropdown anonymous-pro-bold">Read More</button>
             </div>
-            <div class="personal-project">
-                <img class = "business-icon" src="images/soilserdem_logo.jpg"/>
-                <span class="blurb">Here is my blurb, a most blurby blurb to be exact</span>
-                <div class="tech-gallery">
-                    <div class = "tech-gallery-1">
-                        <div class = "tech-pair">
-                            <img  src="icons/prisma.png" />
-                            <span class="anonymous-pro-regular-italic">Prisma</span>
-                        </div>
-                        <div class = "tech-pair">
-                            <img  src="icons/typescript.png" />
-                            <span class="anonymous-pro-regular-italic">Typescript</span>
-                        </div>
-                        <div class = "tech-pair">
-                            <img  src="icons/docker.png" />
-                            <span class="anonymous-pro-regular-italic">Docker</span>
-                        </div>
-                    </div>
-                    <div class = "tech-gallery-2">
-                        <div class = "tech-pair">
-                            <img  src="icons/expressjs.png" />
-                            <span class="anonymous-pro-regular-italic">ExpressJS</span>
-                        </div>
-                        <div class = "tech-pair">
-                            <img  src="icons/mariadb.png" />
-                            <span class="anonymous-pro-regular-italic">MariaDB</span>
-                        </div>
-                        <div class = "tech-pair">
-                            <img  src="icons/nextjs.png" />
-                            <span class="anonymous-pro-regular-italic">NextJS</span>
-                        </div>
-                    </div>
-                </div>
-                <button id="experience-1" class="dropdown anonymous-pro-bold">Read More</button>
-                <div class = "tech-pair">
-                    <img  src="icons/github-black.svg" />
-                </div>
+            <div class="passion">
+                <img class = "passion-icon" src="images/leet-code.png"/>
+                <span class="passion-blurb anonymous-pro-bold">Leetcode is a pastime that I thouroughly enjoy. Not only do I get to learn new ways to solve problems and add new solutions to my toolbox, but
+                    I also get to experiment with how the code I write effects the runtime and space of my code. In addition, if I find that many are writing faster code, I can investigate
+                    their methods to improve my own thinking/programming. I love riddles and a website dedicated to such is simply too good to pass up!</span>
+                <button id="passion-3" class="passion-dropdown anonymous-pro-bold">Read More</button>
             </div>
         </div>
     </div>
