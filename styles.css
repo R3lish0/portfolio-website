@@ -609,6 +609,9 @@
         margin-right: 0.5rem;
         color: black;
     }
+    #title-container {
+        width: 100%;
+    }
 }
 
 @media (max-height: 740px) and (max-width: 800) {
